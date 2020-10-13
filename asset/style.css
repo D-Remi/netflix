@@ -1,5 +1,7 @@
 /* genral */
-
+li{
+    list-style: none;
+}
 /* nav */
 
 nav 
@@ -29,3 +31,50 @@ nav img
 /* video */
 
 /* link of small video */
+.small-video{
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 0.5em 1.3em;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.small-video h2{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.small-video ul{
+    padding-inline-start: 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.small-video ul li{
+    margin-right: 0.2em;
+}
+
+.small-video ul li a{
+    position:relative;
+}
+
+.small-video ul li a:hover {
+    zoom: 125%;
+}
+
+.small-logo{
+    width:5%;
+    position:absolute;
+    left: 0;
+    transform: translate(16%, 13%);
+}
+
+.top-logo{
+    width:5%;
+    position:absolute;
+    right: 0;
+    transform: translate(-20%, 50%)
+}
