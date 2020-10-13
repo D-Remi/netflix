@@ -1,40 +1,46 @@
 [
   {
+    "bigscreen":
+    {
+      "vignette": "assets/img/vignettes/cave.png",
+      "trailer": "assets/video/cave.mp4",
+      "description": "texte desc."
+    },
     "title": "Les plus gros succés sur Netflix",
     "videos":[
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/yoga.png",
+        "trailer": "assets/video/yoga.mp4",
         "description": "texte desc."
       },
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/love.png",
+        "trailer": "assets/video/love.mp4",
         "description": "texte desc."
       },
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/peche.png",
+        "trailer": "assets/video/peche.mp4",
         "description": "texte desc."
       }
     ]
   },
   {
-    "title": "Nouvellautés",
+    "title": "Nouveautés",
     "videos":[
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/alone.png",
+        "trailer": "assets/video/alone.mp4",
         "description": "texte desc."
       },
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/subscribe.png",
+        "trailer": "assets/video/subscribe.mp4",
         "description": "texte desc."
       },
       {
-        "vignette": "assets/img/nom_vignette.png",
-        "trailer": "assets/video/nom_video.mp4",
+        "vignette": "assets/img/vignettes/montagne.png",
+        "trailer": "assets/video/montagne.mp4",
         "description": "texte desc."
       }
     ]
