@@ -1,0 +1,73 @@
+nav 
+{
+    text-decoration: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul
+{
+  display: flex;
+}
+nav li, nav a
+{
+  margin-right: 15px; 
+  color: white; 
+  list-style-type: none;
+  text-decoration: none;
+}
+nav a:hover
+{
+    color: gray;
+    text-decoration: none;
+}
+nav img
+{
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    background-color: black;
+    z-index: 2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown_content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+   
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown_content
+   {
+      display:flex;
+      flex-direction: column;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: blue}
