@@ -12,6 +12,7 @@ nav
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: black;
 }
 
 nav ul
@@ -20,7 +21,8 @@ nav ul
 }
 nav li
 {
-  margin-right: 25px;  
+  margin-right: 25px; 
+  color: white; 
 }
 nav img
 {
@@ -29,6 +31,37 @@ nav img
 }
 
 /* video */
+.view-header video
+{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.view-header button
+{
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+    border: white;
+    background-color: white;
+}
+#lecture 
+{
+    position:absolute;
+    top: 50%;
+    left: 1%;
+    border: white 
+    background-color: white;
+}
+
+#infos
+{
+        position:absolute;
+        top: 50%;
+        left: 8%;
+}
+
 
 /* link of small video */
 .small-video{
