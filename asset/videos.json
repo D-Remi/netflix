@@ -2,30 +2,39 @@
   {
     "vignette": "asset/img/vignettes/cave.png",
     "trailer": "asset/video/cave.mp4",
-    "description": "texte desc.",
+    "description": "Une magnifique cave sa mère la p*** profonde et lumineuse",
     "titleIsImg": false,
     "title": "Cave"
   },
   {
-    "title": "Les plus gros succés sur Netflix",
+    "title": "Les plus gros succès sur Netflix",
     "videos":[
       {
-        "vignette": "asset/img/vignettes/yoga.png",
+        "vignette": "asset/img/vignettes/yoga.jpg",
         "trailer": "asset/video/yoga.mp4",
-        "description": "texte desc.",
-        "title": "Cave"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium ad debitis ea earum est fugiat hic incidunt molestiae quaerat qui, rem temporibus velit, veniam.",
+        "recommendation": "85",
+        "duration": "2 épisodes",
+        "genres": ["fantastic", "aventure"],
+        "title": "Yoga"
       },
       {
-        "vignette": "asset/img/vignettes/love.png",
+        "vignette": "asset/img/vignettes/love.jpg",
         "trailer": "asset/video/love.mp4",
         "description": "texte desc.",
-        "title": "Cave"
+        "recommendation": "91",
+        "duration": "8min",
+        "genres": ["romance", "sciences"],
+        "title": "Love"
       },
       {
-        "vignette": "asset/img/vignettes/peche.png",
+        "vignette": "asset/img/vignettes/peche.jpg",
         "trailer": "asset/video/peche.mp4",
         "description": "texte desc.",
-        "title": "Cave"
+        "recommendation": "99",
+        "duration": "99h",
+        "genres": ["documentaire"],
+        "title": "Peche"
       }
     ]
   },
@@ -33,22 +42,31 @@
     "title": "Nouveautés",
     "videos":[
       {
-        "vignette": "asset/img/vignettes/alone.png",
+        "vignette": "asset/img/vignettes/alone.jpg",
         "trailer": "asset/video/alone.mp4",
         "description": "texte desc.",
-        "title": "Cave"
+        "recommendation": "98",
+        "duration": "20min",
+        "genres": ["Musique", "solitude"],
+        "title": "Alone"
       },
       {
-        "vignette": "asset/img/vignettes/subscribe.png",
+        "vignette": "asset/img/vignettes/subscribe.jpg",
         "trailer": "asset/video/subscribe.mp4",
         "description": "texte desc.",
-        "title": "Cave"
+        "recommendation": "5",
+        "duration": "1min",
+        "genres": ["tutoriel"],
+        "title": "subscribe"
       },
       {
-        "vignette": "asset/img/vignettes/montagne.png",
+        "vignette": "asset/img/vignettes/montagne.jpg",
         "trailer": "asset/video/montagne.mp4",
         "description": "texte desc.",
-        "title": "Cave"
+        "recommendation": "100",
+        "duration": "900 ans",
+        "genres": ["voyage"],
+        "title": "montagne"
       }
     ]
   }

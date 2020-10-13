@@ -1,0 +1,47 @@
+body .container .bigscreen{
+    width: 100%;
+    height: calc(100vw * 0.5625);
+    max-height: 100vh;
+    background: transparent no-repeat center/cover;
+    opacity: 0;
+    transition: opacity .3s;
+}
+body .container .bigscreen video.video{
+    width: 100%;
+    min-height: 100%;
+}
+body .container .vid-lines .start-display .bigscreen-text{
+    margin-left: 36px;
+    margin-bottom: 56px;
+}
+body .container .vid-lines .start-display .bigscreen-text .title{
+    font-size: 72px;
+    text-transform: uppercase;
+}
+body .container .vid-lines .start-display .bigscreen-text .desc{
+    font-size: 20px;
+    max-width: 33%;
+}
+body .container .vid-lines .start-display .bigscreen-text .controls{
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 33%;
+    margin-top: 12px;
+}
+body .container .vid-lines .start-display .bigscreen-text a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+body .container .vid-lines .start-display .bigscreen-text a i.fa{
+    display: inline-block;
+    margin-right: 8px;
+}
+body .container .vid-lines .start-display .bigscreen-text a.more{
+    color:white;
+    background-color: rgba(67, 67, 67, 0.8);
+}

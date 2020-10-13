@@ -5,21 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="asset/vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="asset/css/navbar.css">
+    <link rel="stylesheet" href="asset/css/bigscreen.css">
+    <link rel="stylesheet" href="asset/css/frames.css">
     <link rel="stylesheet" href="asset/css/app.css">
 </head>
 <body>
     <header>
-
+        <nav class="nav-top">
+            <ul>
+                <li class="nav-link brand"><img src="../netflix/asset/img/Netflix.svg" alt="logo_netflix_mini"></li>
+                <li class="nav-link"><a href="#">Accueil</a></li>
+                <li class="nav-link"><a href="#">JEUNESSE</a></li>
+                <li class="nav-link"><a href="#">Films</a></li>
+                <li class="nav-link"><a href="#">Nouveautés</a></li>
+                <li class="nav-link"><a href="#">Ma liste</a></li>
+            </ul>
+            <ul>
+                <li class="nav-link"> <a href="#"><i class="fa fa-search"></i></a></li>
+                <li class="nav-link"> <a href="#">JEUNESSE</a></li>
+                <li class="nav-link"> <a href="#"><i class="fas fa-gift"></i></a></li>
+                <li class="nav-link"> <a href="#"><i class="far fa-bell"></i></a></li>
+                <li class="nav-dropdown">
+                    <a class="nav-dropdown-btn" href="#"><i class="fas fa-user-alt"></i></a>
+                    <div class="nav-dropdown-content">
+                        <a href="#">Jeunesse</a>
+                        <a href="#">Gerer les profils</a>
+                        <hr/>
+                        <a href="#">Compte</a>
+                        <a href="#">Centre d'aide</a>
+                        <a href="#">Se deconnecter</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <div class="container">
         <div class="bigscreen">
-            <video class="video" autoplay muted><source type="video/mp4"></video>
+            <video class="video" muted><source type="video/mp4"></video>
         </div>
         <div class="vid-lines">
             <div class="separator"></div>
             <div class="start-display">
-
+                <div class="bigscreen-text">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                    <div class="controls">
+                        <a href="#" class="load"><i class="fa fa-play"></i> Lecture</a>
+                        <a href="#" class="more"><i class="fa fa-info-circle"></i> Voir plus</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -29,7 +65,8 @@
     </div>
     <script src="asset/vendor/jquery/js/jquery.min.js"></script>
     <script src="asset/vendor/fontawesome/js/all.js"></script>
-    <script src="asset/js/app.js"></script>
     <script src="asset/js/frame.js"></script>
+    <script src="asset/js/app.js"></script>
+
 </body>
 </html>
