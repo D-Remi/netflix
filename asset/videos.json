@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Les plus gros succés sur Netflix",
+    "videos":[
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      },
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      },
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      }
+    ]
+  },
+  {
+    "title": "Nouvellautés",
+    "videos":[
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      },
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      },
+      {
+        "vignette": "assets/img/nom_vignette.png",
+        "trailer": "assets/video/nom_video.mp4",
+        "description": "texte desc."
+      }
+    ]
+  }
+]
